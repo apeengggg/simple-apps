@@ -1,4 +1,4 @@
-service:
+services:
   simple-apps:
     container_name: ct-simpleapps
     # build: /app
