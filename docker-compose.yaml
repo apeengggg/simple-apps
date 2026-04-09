@@ -9,7 +9,7 @@ services:
     #   - ./app/.env
     environment:
       - DB_NAME=training
-      - DB_HOST=172.23.8.28
+      - DB_HOST=172.23.8.30
       - DB_USER=peserta
       - DB_PASSWORD=password
       - APP_PORT=3000
