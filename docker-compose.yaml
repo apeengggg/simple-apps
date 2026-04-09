@@ -1,12 +1,13 @@
 service:
   simple-apps:
     container_name: ct-simpleapps
-    build: /app
+    # build: /app
+    image: apeengggg/simpleapps
     ports:
       - "8181:3000"
     # env_file:
     #   - ./app/.env
-    env:
+    environment:
       - DB_NAME=training
       - DB_HOST=172.23.8.28
       - DB_USER=peserta
